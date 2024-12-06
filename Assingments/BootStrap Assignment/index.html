@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ModernSite - Home</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">ModernSite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-wrapper">
+    <header class="hero bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4" data-aos="fade-up">Welcome to ModernSite</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="200">A sleek and responsive website built with Bootstrap 5</p>
+        <a href="#features" class="btn btn-light btn-lg mt-3" data-aos="fade-up" data-aos-delay="400">Learn More</a>
+      </div>
+    </header>
+
+    <section id="features" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Features</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Responsive Design</h5>
+                <p class="card-text">Our website looks great on all devices, from mobile to desktop.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Modern UI</h5>
+                <p class="card-text">Clean and modern user interface for the best user experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Fast Loading</h5>
+                <p class="card-text">Optimized for speed to ensure quick loading times.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 ModernSite. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="node_modules/aos/dist/aos.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+body {
+  background-color: #a5d0db; /* Light blue background */
+  background-image: url("path-to-pattern-image.png"); /* Pattern image for the background */
+  background-repeat: repeat;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #3b9cab; /* Darker blue background for header */
+  font-family: "Brush Script MT", cursive; /* Custom font for 'Oceanic Airlines' */
+
+}
+.navbar {
+  /* background-color: #4b9f9f; */
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar li {
+  position: relative;
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px; /* Adjusted padding for a more balanced look */
+  background-color: #e58312;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar a:hover {
+  background-color: #ff9a00;
+}
+
+/* Triangle at the top */
+.navbar li::before {
+  content: "";
+  position: absolute;
+  top: -10px; /* Positions the triangle above the tab */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #e58312; /* Matches the tab color */
+  z-index: 0;
+}
+
+/* Mask triangle to match navbar background color */
+.navbar li::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #4b9f9f;
+  z-index: -1;
+}
+.content {
+  text-align: center;
+}
+.inner-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content h2 {
+  color: #005f5f;
+  margin-top: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.column h3 {
+  color: #e58312;
+  font-size: 1.2em;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column a {
+  text-decoration: none;
+  color: #e58312;
+}
+
+.column a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+  font-size: 0.9em;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+.main-content {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #005f5f;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+/* Inner container for image and text */
+.main-content img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.welcome-text {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.welcome-text h2 {
+  color: #01777b; /* Teal color for header */
+  font-weight: bold;
+}
+
+/* Link section styling */
+.links-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.links-section div {
+  width: 45%;
+}
+
+.links-section h3 {
+  color: #f48b2a; /* Orange color for section headers */
+  text-align: center;
+  font-weight: bold;
+}
+
+.links-section a {
+  color: #f48b2a;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.links-section a:hover {
+  color: #f27b00; /* Darker shade for hover */
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+}

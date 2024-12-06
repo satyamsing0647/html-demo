@@ -1,0 +1,15 @@
+{
+  "name": "modern-bootstrap-website",
+  "version": "1.0.0",
+  "description": "A modern multi-page website using Bootstrap 5 with animations",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "aos": "^2.3.4"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}

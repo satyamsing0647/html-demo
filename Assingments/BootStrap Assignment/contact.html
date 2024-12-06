@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ModernSite - Contact</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">ModernSite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-wrapper">
+    <header class="hero bg-info text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4" data-aos="fade-up">Contact Us</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="200">Get in touch with our team</p>
+      </div>
+    </header>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-right">
+            <h2>Send us a message</h2>
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+          <div class="col-md-6" data-aos="fade-left">
+            <h2>Contact Information</h2>
+            <ul class="list-unstyled">
+              <li><strong>Address:</strong> 123 Web Street, Internet City, 12345</li>
+              <li><strong>Phone:</strong> (123) 456-7890</li>
+              <li><strong>Email:</strong> info@modernsite.com</li>
+            </ul>
+            <div class="mt-4">
+              <h3>Follow Us</h3>
+              <a href="#" class="btn btn-outline-primary me-2">Facebook</a>
+              <a href="#" class="btn btn-outline-info me-2">Twitter</a>
+              <a href="#" class="btn btn-outline-danger">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 ModernSite. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="node_modules/aos/dist/aos.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
